@@ -103,7 +103,7 @@ $(document).ready(function() {
          }
         
         }, {
-         offset: '30px;'
+         offset: '90px;'
         
     })
     
@@ -126,31 +126,8 @@ $(document).ready(function() {
         }
    })
     
-    //TO HIDE MENU WHEN USER CLICKS ON LINK
-//     $('.mobile-nav li a').click(function(){
-//        icon[0].name = 'menu-sharp';
-//         var navi = $('.menu-nav');
-//        mobilenav.hide();
-//        })
-        
     
-    //TO HIDE MENU WHEN USER CLICKS ANYWHERE OUTSIDE THE MENU
-//     $(nav).mouseleave(function(){
-//         $('html').click(function(){
-//         icon[0].name = 'menu-sharp';
-//         nav.hide();
-//             $('html').unbind('click');
-//        })
-//    })
-//        
-//        ALTERNATE SOLUTION TO TOGGLE BUTTONS
-//     if (icon.attr("name") === 'menu-sharp') {
-//            icon.attr("name", 'close-sharp');
-//        } else {
-//            icon.attr("name", 'menu-sharp');
-//        }
-//        
-//        })
+
         
     //NAVIGATION BUG FIX
     $(window).resize(function(){
